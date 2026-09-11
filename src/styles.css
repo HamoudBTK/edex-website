@@ -60,6 +60,7 @@ body { margin: 0; background: var(--background); color: var(--foreground); font-
 a { color: inherit; text-decoration: none; }
 img { display: block; width: 100%; }
 ::selection { background: var(--accent); color: var(--accent-foreground); }
+section[id] { scroll-margin-top: 5rem; }
 
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; height: 94px; display: flex; align-items: center; justify-content: space-between; padding: 0 4.5vw; color: var(--primary-foreground); transition: background .45s ease, height .45s ease, color .45s ease; }
 .site-header--scrolled { height: 68px; background: color-mix(in oklab, var(--background) 94%, transparent); color: var(--foreground); border-bottom: 1px solid var(--border); backdrop-filter: blur(10px); }

@@ -208,12 +208,12 @@ function EdExHome() {
       <section id="dialogue" className="closing" aria-labelledby="closing-title">
         <p className="section-index">05 — Et maintenant</p>
         <h2 id="closing-title">Votre parcours<br /><em>commence quelque part.</em></h2>
-        <div className="closing-actions"><ArrowLink href="mailto:contact@edex.bj">Parler à EdEx</ArrowLink><ArrowLink href="#parcours">Explorer mon parcours</ArrowLink></div>
+        <div className="closing-actions"><ArrowLink href="#parcours">Explorer mon parcours</ArrowLink><ArrowLink href="#vision">Comprendre la vision</ArrowLink></div>
       </section>
 
       <footer>
         <div className="footer-brand"><a className="wordmark wordmark--footer" href="#top">Ed<span>Ex</span></a><p>L’allié des esprits brillants</p></div>
-        <div className="footer-links"><a href="#parcours">Parcours</a><a href="#vision">Vision</a><a href="mailto:contact@edex.bj">Contact</a><a href="#top">LinkedIn ↗</a></div>
+        <div className="footer-links"><a href="#parcours">Parcours</a><a href="#vision">Vision</a><a href="#pole-3">Jeunes diplômés</a><a href="#pole-5">Private Equity</a></div>
         <div className="footer-meta"><span>Cotonou, Bénin</span><span>© 2026 EdEx</span></div>
       </footer>
     </main>
